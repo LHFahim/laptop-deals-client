@@ -26,7 +26,7 @@ const BookingModal = ({ product, setProduct }) => {
       userEmail,
     };
 
-    fetch("https://buy-sell-server-sooty.vercel.app/bookings", {
+    fetch("https://laptop-deals-server.vercel.app/bookings", {
       method: "POST",
       headers: {
         "content-type": "application/json",

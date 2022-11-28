@@ -21,7 +21,7 @@ const Product = ({ product, setProduct }) => {
   const handleReport = (id) => {
     const proceed = window.confirm("Are you sure?");
     if (proceed) {
-      fetch(`https://buy-sell-server-sooty.vercel.app/report/${id}`, {
+      fetch(`https://laptop-deals-server.vercel.app/report/${id}`, {
         method: "POST",
         headers: {
           "content-type": "application/json",

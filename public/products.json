@@ -1,0 +1,69 @@
+[
+    {
+      "name": "Apple's M2 MacBook Air",
+      "img": "https://media.wired.com/photos/62ed68656f48e5c6d48d6f1f/1:1/w_1800,h_1800,c_limit/M2-Macbook-Air-Gaming-Gear.jpg",
+      "location": "4992 North Avenue Hallam, NE 68368",
+      "resalePrice": "560",
+      "orgPrice": "1099",
+      "used": "5 Months",
+      "seller": "Saifur Rahman",
+      "post_time": "7 october,2022",
+      "category_id": "01"
+    },
+    {
+      "name": "Apple MacBook Air (2020)",
+      "img": "https://reviewed-com-res.cloudinary.com/image/fetch/s--BVpcY8zX--/b_white,c_fill,cs_srgb,f_auto,fl_progressive.strip_profile,g_xy_center,h_972,q_auto,w_972,x_833,y_803/https://reviewed-production.s3.amazonaws.com/1588384493638/macbook-hero-ii.jpg",
+      "location": "4992 North Avenue Hallam, NE 68368",
+      "resalePrice": "339",
+      "orgPrice": "899",
+      "used": "1.5 Years",
+      "seller": "Saifur Rahman",
+      "post_time": "21 october,2022",
+      "category_id": "01"
+    },
+    {
+      "name": "ASUS X515",
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-05-500x500.jpg",
+      "location": "4992 North Avenue Hallam, NE 68368",
+      "resalePrice": "299",
+      "orgPrice": "699",
+      "used": "1 Years",
+      "post-time": "12 october,2022",
+      "seller": "Saifur Rahman",
+      "category_id": "02"
+    },
+    {
+      "name": "ASUS F571",
+      "img": "https://www.nexus.com.bd/images/detailed/6/Asus_VivoBook_F571LI_Intel_Core_i5_10th_Gen_Star_Black_Gaming_Laptop.jpg",
+      "location": "4992 North Avenue Hallam, NE 68368",
+      "resalePrice": "329",
+      "orgPrice": "799",
+      "used": "1.1 Years",
+      "post-time": "17 october,2022",
+      "seller": "Saifur Rahman",
+      "category_id": "02"
+    },
+    {
+      "name": "Dell Latitude 14-7410",
+      "img": "https://www.samantacomputer.com/wp-content/uploads/2021/01/Dell-Latitude-14-7410-10th-Gen-Intel-Core-i7-10610U.jpg",
+      "location": "4992 North Avenue Hallam, NE 68368",
+      "resalePrice": "299",
+      "orgPrice": "789",
+      "used": "1.3 Years",
+      "seller": "Saifur Rahman",
+      "post_time": "2 october,2022",
+      "category_id": "03"
+    },
+    {
+      "name": "Dell Latitude 7280",
+      "img": "https://cdn.shopify.com/s/files/1/1167/3148/products/laptops-refurbished-dell-latitude-e7280-intel-6th-gen-i5-laptop-ssd-5.png?v=1637436117&width=1445",
+      "location": "4992 North Avenue Hallam, NE 68368",
+      "resalePrice": "312",
+      "orgPrice": "588",
+      "used": "1.1 Years",
+      "seller": "Saifur Rahman",
+      "post_time": "22 october,2022",
+      "category_id": "03"
+    }
+  ]
+  

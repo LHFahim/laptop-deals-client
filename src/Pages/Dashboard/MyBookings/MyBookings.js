@@ -10,7 +10,7 @@ const MyBookings = () => {
     queryKey: ["bookings"],
     queryFn: async () => {
       const res = await fetch(
-        `https://buy-sell-server-sooty.vercel.app/bookings/${email}`,
+        `https://laptop-deals-server.vercel.app/bookings/${email}`,
         {
           headers: {
             authorization: `bearer ${localStorage.getItem("accessToken")}`,

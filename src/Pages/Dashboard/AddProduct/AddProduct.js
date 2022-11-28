@@ -30,7 +30,7 @@ const AddProduct = () => {
       seller_email,
     };
 
-    fetch("https://buy-sell-server-sooty.vercel.app/add_products", {
+    fetch("https://laptop-deals-server.vercel.app/add_products", {
       method: "POST",
       headers: {
         "content-type": "application/json",

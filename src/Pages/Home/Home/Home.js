@@ -14,27 +14,16 @@ const Home = () => {
     queryKey: ["categorisedProducts"],
     queryFn: async () => {
       const res = await fetch(
-        "https://buy-sell-server-sooty.vercel.app/categories"
+        "https://laptop-deals-server.vercel.app/categories"
       );
       const data = await res.json();
       return data;
     },
   });
 
-  // const { data: advertisedItems = [] } = useQuery({
-  //   queryKey: ["advertiseditems"],
-  //   queryFn: async () => {
-  //     const res = await fetch("https://buy-sell-server-sooty.vercel.app/advertiseditems");
-  //     const data = await res.json();
-  //     return data;
-  //   },
-  // });
-  /*
-   */
-
   useEffect(() => {
     axios
-      .get("https://buy-sell-server-sooty.vercel.app/advertiseditems")
+      .get("https://laptop-deals-server.vercel.app/advertiseditems")
       .then((response) => {
         setAdvertisedItems(response.data);
       });
@@ -71,7 +60,7 @@ const Home = () => {
             <Link
               to={`/category/${category.category_id}`}
               key={category._id}
-              className="btn btn-accent btn-outline rounded-none text-lg w-full uppercase font-semibold my-2"
+              className="btn btn-primary btn-outline rounded-none text-lg w-full uppercase font-semibold my-2 "
             >
               {category.name}
             </Link>

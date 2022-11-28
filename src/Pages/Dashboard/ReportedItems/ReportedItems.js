@@ -7,7 +7,7 @@ const ReportedItems = () => {
     queryKey: ["reportedItems"],
     queryFn: async () => {
       const res = await fetch(
-        `https://buy-sell-server-sooty.vercel.app/reporteditems`
+        `https://laptop-deals-server.vercel.app/reporteditems`
       );
       const data = await res.json();
       return data;

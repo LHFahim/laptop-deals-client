@@ -50,7 +50,7 @@ const SignUp = () => {
   };
   const saveUser = (name, email, role) => {
     const user = { name, email, role };
-    fetch("https://buy-sell-server-sooty.vercel.app/users", {
+    fetch("https://laptop-deals-server.vercel.app/users", {
       method: "POST",
       headers: {
         "content-type": "application/json",

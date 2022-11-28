@@ -7,7 +7,7 @@ const AllSellers = () => {
     queryKey: ["users"],
     queryFn: async () => {
       const res = await fetch(
-        "https://buy-sell-server-sooty.vercel.app/users/seller"
+        "https://laptop-deals-server.vercel.app/users/seller"
       );
       const data = await res.json();
       return data;
@@ -16,7 +16,7 @@ const AllSellers = () => {
   const handleDelete = (_id) => {
     const proceed = window.confirm("Are you sure?");
     if (proceed) {
-      fetch(`https://buy-sell-server-sooty.vercel.app/users/${_id}`, {
+      fetch(`https://laptop-deals-server.vercel.app/users/${_id}`, {
         method: "DELETE",
         headers: {
           authorization: `bearer ${localStorage.getItem("accessToken")}`,
@@ -34,7 +34,7 @@ const AllSellers = () => {
   const handleVerify = (_id) => {
     const proceed = window.confirm("Are you sure?");
     if (proceed) {
-      fetch(`https://buy-sell-server-sooty.vercel.app/user/${_id}`, {
+      fetch(`https://laptop-deals-server.vercel.app/user/${_id}`, {
         method: "POST",
         headers: {
           "content-type": "application/json",

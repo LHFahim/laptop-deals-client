@@ -16,7 +16,7 @@ const ExtraSection = () => {
           <div className="w-full lg:w-1/2">
             <div className="lg:max-w-lg">
               <h1 className="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">
-                Subscribe To <span className="text-blue-500">Wish Boat</span>
+                Subscribe To <span className="text-blue-500">Laptop Deals</span>
               </h1>
 
               <p className="mt-4 text-gray-600 dark:text-gray-400">

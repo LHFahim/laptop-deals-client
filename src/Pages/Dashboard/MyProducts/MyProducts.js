@@ -9,7 +9,7 @@ const MyProducts = () => {
     queryKey: ["myProducts"],
     queryFn: async () => {
       const res = await fetch(
-        `https://buy-sell-server-sooty.vercel.app/products/${user?.email}`
+        `https://laptop-deals-server.vercel.app/products/${user?.email}`
       );
       const data = await res.json();
       return data;

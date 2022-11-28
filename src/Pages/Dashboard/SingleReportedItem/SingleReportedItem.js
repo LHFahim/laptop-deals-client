@@ -7,7 +7,7 @@ const SingleReportedItem = ({ item, refetch }) => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure?");
     if (proceed) {
-      fetch(`https://buy-sell-server-sooty.vercel.app/deleteproduct/${id}`, {
+      fetch(`https://laptop-deals-server.vercel.app/deleteproduct/${id}`, {
         method: "DELETE",
         headers: {
           "content-type": "application/json",

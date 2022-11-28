@@ -36,9 +36,7 @@ export const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(
-            `https://buy-sell-server-sooty.vercel.app/category/${params.id}`
-          ),
+          fetch(`https://laptop-deals-server.vercel.app/category/${params.id}`),
       },
       {
         path: "/login",
@@ -104,7 +102,7 @@ export const router = createBrowserRouter([
         element: <Payment></Payment>,
         loader: ({ params }) =>
           fetch(
-            `https://buy-sell-server-sooty.vercel.app/onebooking/${params.id}`
+            `https://laptop-deals-server.vercel.app/onebooking/${params.id}`
           ),
       },
     ],

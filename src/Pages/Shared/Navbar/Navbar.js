@@ -58,7 +58,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link className="btn btn-ghost uppercase text-xl" to="/">
-          Wish Boat
+          Laptop Deals
         </Link>
       </div>
       <div className="navbar-center btn btn-ghost text-xl animate-pulse">
