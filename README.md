@@ -1,6 +1,6 @@
 ### My project name is "Laptop Deals".
 
-### Live website of this project is: https://wish-boat.web.app
+### Live website of this project is: https://laptop-deals-9f958.web.app/
 
 ### Features and functionalities of this project are given below:
 
